@@ -1,0 +1,19 @@
+A simple Game Engine made by Milos Tanic and Ömer Vural.
+
+	- Made using: LWJGL3 Java Library, OpenGL, GLSL. 
+	- Models, guidance and inspiration found in the ThinMatrix's OpenGL Tutorial Series on YouTube:
+		>https://www.youtube.com/user/ThinMatrix
+	- Other references/examples used in the project:
+		>liunick's lwjgl3-engine: whttps://github.com/liunick/lwjgl3-engine
+		>https://www.lwjgl.org/guide
+		>https://www.opengl.org/
+
+Future plans for the game engine (some of them):
+	
+	- Improve the existing physics engine
+		>Improve collision detection
+		>Improve collision response
+		>Add event triggers
+		>Give user possibility to test the physics engine
+		   by changing physics engine settings
+		

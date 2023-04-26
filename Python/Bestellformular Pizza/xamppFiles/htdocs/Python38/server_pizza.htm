@@ -1,0 +1,59 @@
+<!DOCTYPE html><html>
+<head>
+	<meta charset="utf-8">
+</head>
+<body>
+	<p><b>Python Pizza Service</b></p>
+	
+	<form action="/cgi-bin/Python38/server_pizza.cgi">
+		<p><input type="radio" name="ku" value="S" checked="checked"/>Stammkunde (5% Rabatt)
+		<input type="password" name="kc" size="6" maxlength="6"/>Code<br />
+		<input type="radio" name="ku" value="N"/> Neukunde</p>
+		
+		<table>
+			<tr>
+				<td>Nachname<input name="nn" size="12"/></td>
+				<td>Vorname<input name="vn" size="12"/></td>
+			</tr>
+			<tr>
+				<td>Straße<input name="st" size="12"/></td>
+				<td>Hausnr.<input name="hn" size="12"/></td>
+			</tr>
+			<tr>
+				<td>PLZ<input name="pz" size="12"/></td>
+				<td>Ort<input name="or" size="12"/></td>
+			</tr>
+		</table>
+		
+		<p>Sorte:
+		<select name="pt">
+			<option value="Salami">
+				Pizza Salami (6.00 &euro;)</option>
+			<option value="Thunfisch">
+				Pizza Thunfisch (6.50 &euro;)</option>
+			<option value="Quattro Stagioni">
+				Pizza Quattro Stagioni (7.50 &euro;)</option>
+			<option value="Python" select="selected">
+				Pizza Python (8.50 &euro;)</option>
+		</select></p>
+		
+		<p>Zusätze:
+		<select name="zu" multiple size="2">
+			<option value="Pepperoni">
+				Extra Pepperoni (1.00 &euro;)</option>
+			<option value="Oliven">
+				Extra Oliven (1.20 &euro;)</option>
+			<option value="Sardellen">
+				Extra Sardellen (1.50 &euro;)</option>
+		</select></p>
+		
+		<p><input type="checkbox" name="ex">Express-Service
+		(max. 30 Minuten, 1.5 &euro; extra)</p>
+		
+		<p>Bemerkung: <textarea name="bm" rows="3"
+											cols="25"></textarea></p>
+											
+		<p><input type="submit" value="Submit"/> <input type="reset"/></p>
+	</form>
+</body>
+</html>

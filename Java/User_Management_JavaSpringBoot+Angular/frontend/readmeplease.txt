@@ -1,0 +1,1 @@
+ng serve -o (or --open -> opens the thing direct in browser)
