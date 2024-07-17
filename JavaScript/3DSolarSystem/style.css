@@ -2,7 +2,30 @@
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  /* text-align: center; */
   color: #2c3e50;
-  margin-top: 60px;
+  /* margin-top: 60px; */
 }
+
+#score {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 20px;
+  color: #5ad178;
+}
+
+#planet-list {
+  display: flex;
+  position: absolute;
+  top: 10px;
+  left: 100px;
+  font-size: 20px;
+  color: #5a8ed1;
+}
+
+#planet-list span {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
